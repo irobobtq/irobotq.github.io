@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://irobotq.github.io</id>
     <title>IRobobtQ3D</title>
-    <updated>2020-03-05T03:57:26.602Z</updated>
+    <updated>2020-03-05T04:06:48.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://irobotq.github.io"/>
     <link rel="self" href="https://irobotq.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://irobotq.github.io/images/avatar.png</logo>
     <icon>https://irobotq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, IRobobtQ3D</rights>
+    <entry>
+        <title type="html"><![CDATA[某些情况下 Windows 10 中无法启动萝卜圈的解决办法 ]]></title>
+        <id>https://irobotq.github.io/post/mou-xie-qing-kuang-xia-windows-10-zhong-wu-fa-qi-dong-luo-bu-quan-de-jie-jue-ban-fa/</id>
+        <link href="https://irobotq.github.io/post/mou-xie-qing-kuang-xia-windows-10-zhong-wu-fa-qi-dong-luo-bu-quan-de-jie-jue-ban-fa/">
+        </link>
+        <updated>2020-03-05T04:00:17.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>单击桌面右下角托盘的 Windows Defender 图标，打开 Windows Defender 安全中心；在某些计算机上要单击“∧”箭头展开托盘找到此图标。<br>
+<img src="https://irobotq.github.io/post-images/1583381119840.png" alt="" loading="lazy"></li>
+<li>单击“病毒和威胁防护”图标<br>
+<img src="https://irobotq.github.io/post-images/1583381134172.png" alt="" loading="lazy"></li>
+<li>单击“病毒和威胁防护”设置<br>
+<img src="https://irobotq.github.io/post-images/1583381148317.png" alt="" loading="lazy"></li>
+<li>向下滚动页面，单击“添加或删除排除项”<br>
+<img src="https://irobotq.github.io/post-images/1583381155641.png" alt="" loading="lazy"></li>
+<li>单击“添加排除项”前的“+”号，选择“文件夹”<br>
+<img src="https://irobotq.github.io/post-images/1583381175045.png" alt="" loading="lazy"></li>
+<li>选择萝卜圈安装目录，默认的目录位于 C:\Program Files(x86) 中，选择IRobotQ3D 整个目录，再单击“选择文件夹”，在系统弹出的“用户账户控制”弹窗中单击“是”，完成添加排除项，关闭Windows Defender 安全中心。 即能正常启动萝卜圈。<br>
+<img src="https://irobotq.github.io/post-images/1583381190702.png" alt="" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一课 认识虚拟机器人]]></title>
         <id>https://irobotq.github.io/post/ce-shi/</id>
